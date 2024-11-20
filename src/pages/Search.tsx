@@ -4,7 +4,7 @@ import { Sidebar } from '../components/Sidebar';
 import { Player } from '../components/Player';
 import { MusicGrid } from '../components/MusicGrid';
 import { spotifyService } from '../services/spotify';
-import { mapSpotifyTrackToSong } from '../utils/spotifyMapper.ts';
+import { mapSpotifyTrackToSong } from '../utils/SpotifyMapper.ts';
 import { Song } from '../types/music';
 
 export function Search() {
